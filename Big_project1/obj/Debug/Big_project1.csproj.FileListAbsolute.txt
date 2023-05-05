@@ -1,0 +1,58 @@
+C:\Users\LIKETECH.VN\source\repos\Big_project1\bin\Debug\Big_project1.exe.config
+C:\Users\LIKETECH.VN\source\repos\Big_project1\bin\Debug\Big_project1.exe
+C:\Users\LIKETECH.VN\source\repos\Big_project1\bin\Debug\Big_project1.pdb
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.csproj.AssemblyReference.cache
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.csproj.SuggestedBindingRedirects.cache
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Form1.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Properties.Resources.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.csproj.GenerateResource.cache
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.csproj.CoreCompileInputs.cache
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.exe
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.pdb
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Add.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Purchase.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Search.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Check_soluong.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Receipt.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Sales.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.Update.resources
+C:\Users\LIKETECH.VN\source\repos\Big_project1\obj\Debug\Big_project1.InvoiceDetails.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\bin\Debug\Big_project1.exe.config
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\bin\Debug\Big_project1.exe
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\bin\Debug\Big_project1.pdb
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.csproj.AssemblyReference.cache
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Add.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Check_soluong.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Form1.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.InvoiceDetails.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Properties.Resources.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Purchase.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Receipt.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Sales.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Search.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Update.resources
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.csproj.GenerateResource.cache
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.csproj.CoreCompileInputs.cache
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.exe
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.pdb
+D:\Cleverly\WRU\C#\Nguyễn Văn Duy-2051063863-Quản lý sách\Big_project1\obj\Debug\Big_project1.Delete.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\bin\Debug\Big_project1.exe.config
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\bin\Debug\Big_project1.exe
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\bin\Debug\Big_project1.pdb
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.csproj.AssemblyReference.cache
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Add.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Check_soluong.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Delete.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Form1.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.InvoiceDetails.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Properties.Resources.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Purchase.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Receipt.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Sales.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Search.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.Update.resources
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.csproj.GenerateResource.cache
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.csproj.CoreCompileInputs.cache
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.exe
+D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.pdb

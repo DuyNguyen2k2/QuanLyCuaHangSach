@@ -37,6 +37,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,9 +87,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.button2.Location = new System.Drawing.Point(139, 382);
+            this.button2.Location = new System.Drawing.Point(37, 376);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 43);
+            this.button2.Size = new System.Drawing.Size(146, 43);
             this.button2.TabIndex = 4;
             this.button2.Text = "Tìm kiếm";
             this.button2.UseVisualStyleBackColor = true;
@@ -97,9 +98,9 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.button4.Location = new System.Drawing.Point(330, 382);
+            this.button4.Location = new System.Drawing.Point(225, 374);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(138, 43);
+            this.button4.Size = new System.Drawing.Size(169, 46);
             this.button4.TabIndex = 6;
             this.button4.Text = "Tạo hóa đơn";
             this.button4.UseVisualStyleBackColor = true;
@@ -108,7 +109,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.button5.Location = new System.Drawing.Point(518, 382);
+            this.button5.Location = new System.Drawing.Point(436, 376);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(143, 43);
             this.button5.TabIndex = 7;
@@ -138,11 +139,23 @@
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
+            // btnLogout
+            // 
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.btnLogout.Location = new System.Drawing.Point(620, 376);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(143, 43);
+            this.btnLogout.TabIndex = 10;
+            this.btnLogout.Text = "Đăng xuất";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -173,6 +186,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnLogout;
     }
 }
 

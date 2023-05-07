@@ -56,3 +56,22 @@ D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa h
 D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.csproj.CoreCompileInputs.cache
 D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.exe
 D:\Downloads\Nhóm 7 - Quản lý cửa hàng sách\Nhóm 7 - Quản lý cửa hàng sách\Big_project1\obj\Debug\Big_project1.pdb
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\bin\Debug\Big_project1.exe.config
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\bin\Debug\Big_project1.exe
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\bin\Debug\Big_project1.pdb
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.csproj.AssemblyReference.cache
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Add.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Delete.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.InvoiceDetails.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Login.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Properties.Resources.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Purchase.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Receipt.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Sales.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Search.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Update.resources
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.csproj.GenerateResource.cache
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.csproj.CoreCompileInputs.cache
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.exe
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.pdb
+D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Home.resources

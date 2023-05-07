@@ -26,11 +26,6 @@ namespace Big_project1
         {
             List<string> emptyFields = new List<string>(); // danh sách các ô trống
 
-            if (txtMa.Text.Length == 0)
-            {
-                emptyFields.Add("Mã sách");
-            }
-
             if (txtTen.Text.Length == 0)
             {
                 emptyFields.Add("Tên sách");
@@ -57,55 +52,46 @@ namespace Big_project1
             }
             else
             {
-                if (!int.TryParse(txtGia.Text, out int gia))
+                if (!Double.TryParse(txtGia.Text, out double gia))
                 {
-                    MessageBox.Show("Giá phải là số nguyên!");
+                    MessageBox.Show("Giá tiền phải là kiểu số", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }
             if (emptyFields.Count > 0)
             {
                 string fields = string.Join(", ", emptyFields.ToArray());
-                MessageBox.Show($"Không được để trống {fields}!");
+                MessageBox.Show($"Không được để trống {fields}!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
             else
             {
-                cmd = new SqlCommand($"select COUNT(*)  from Sach where [Mã sách] = '{txtMa.Text}'", conn);
-                int result = (int) cmd.ExecuteScalar();
-                if (result == 0)
+                try
                 {
-                    try
+                    double gia = Convert.ToDouble(txtGia.Text);
+
+                    cmd = new SqlCommand($"insert into Sach values (N'{txtTen.Text}',N'{txtLoai.Text}',N'{txtNxb.Text}',N'{txtTg.Text}', {gia})", conn);
+                    if (cmd.ExecuteNonQuery() <= 0)
                     {
-                        if (txtTen.Text.Length == 0 || txtNxb.Text.Length == 0 || txtLoai.Text.Length == 0
-                            || txtTg.Text.Length == 0 || txtGia.Text.Length == 0) throw new Exception();
 
-                        int gia = Convert.ToInt32(txtGia.Text);
-
-                        cmd = new SqlCommand($"insert into Sach values ('{txtMa.Text}',N'{txtTen.Text}',N'{txtLoai.Text}',N'{txtNxb.Text}',N'{txtTg.Text}', {gia})", conn);
-                        if (cmd.ExecuteNonQuery() <= 0)
-                        {
-
-                            throw new Exception();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Thêm mới thành công!!");
-                        }
-
-                        this.Close();
-                        Form1 form1 = new Form1();
-                        form1.Show();
-                        this.Hide();
+                        throw new Exception();
                     }
-                    catch (Exception ex)
+                    else
                     {
-                        MessageBox.Show("Giá trị nhập không hợp lệ!");
+                        MessageBox.Show("Thêm mới thành công!!");
                     }
+
+                    this.Close();
+                    Home form1 = new Home();
+                    form1.Show();
+                    this.Hide();
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Mã đã tồn tại!!");
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+
+
             }
         }
 
@@ -113,7 +99,7 @@ namespace Big_project1
         {
             try
             {
-                conn = new SqlConnection(@"Data Source=DESKTOP-13D72EF\SQLEXPRESS;Initial Catalog=QuanLySach;Integrated Security=True");
+                conn = new SqlConnection(DatabaseConnection.ConnectionString);
                 conn.Open();
             }
             catch (Exception ex)
@@ -125,7 +111,7 @@ namespace Big_project1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 form1 = new Form1();
+            Home form1 = new Home();
             form1.Show();
             this.Hide();
         }

@@ -27,7 +27,7 @@ namespace Big_project1
         {
             try
             {
-                conn = new SqlConnection(@"Data Source=DESKTOP-13D72EF\SQLEXPRESS;Initial Catalog=QuanLySach;Integrated Security=True");
+                conn = new SqlConnection(DatabaseConnection.ConnectionString);
                 conn.Open();
             }
             catch (Exception ex)
@@ -69,7 +69,7 @@ namespace Big_project1
                         }
 
                         this.Close();
-                        Form1 form1 = new Form1();
+                        Home form1 = new Home();
                         form1.Show();
                         this.Hide();
                     }
@@ -90,10 +90,18 @@ namespace Big_project1
 
         private void txtMa_TextChanged(object sender, EventArgs e)
         {
-            adapter = new SqlDataAdapter($"select * from Sach where [Mã sách] = '{txtMa.Text}'", conn);
-            DataTable dt = new DataTable();
-            adapter.Fill(dt);
-            dataGridView1.DataSource = dt;
+            try
+            {
+                adapter = new SqlDataAdapter($"select * from Sach where [Mã sách] = '{txtMa.Text}'", conn);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Mã sách phải là kiểu số nguyên", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtMa.ResetText();
+            }
 
         }
 
@@ -121,7 +129,7 @@ namespace Big_project1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 form1 = new Form1();
+            Home form1 = new Home();
             form1.Show();
             this.Hide();
         }

@@ -34,7 +34,7 @@ namespace Big_project1
         {
             try
             {
-                conn = new SqlConnection(@"Data Source=DESKTOP-13D72EF\SQLEXPRESS;Initial Catalog=QuanLySach;Integrated Security=True");
+                conn = new SqlConnection(DatabaseConnection.ConnectionString);
                 conn.Open();
                 Load_comboBox();
             }
@@ -65,7 +65,7 @@ namespace Big_project1
                         MessageBox.Show("Nhập số lượng thành công!!");
                     }
                     this.Close();
-                    Form1 form1 = new Form1();
+                    Home form1 = new Home();
                     form1.Show();
                     this.Hide();
                 }
@@ -80,7 +80,7 @@ namespace Big_project1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 form1 = new Form1();
+            Home form1 = new Home();
             form1.Show();
             this.Hide();
         }

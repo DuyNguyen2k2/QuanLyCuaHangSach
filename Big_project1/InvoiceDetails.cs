@@ -17,12 +17,12 @@ namespace Big_project1
         SqlCommand cmd;
         SqlDataAdapter adapter;
         DataTable dt;
-        string mhd;
+        int mhd;
         public InvoiceDetails()
         {
             InitializeComponent();
         }
-        public InvoiceDetails(string _mhd)
+        public InvoiceDetails(int _mhd)
         {
             mhd = _mhd;
             InitializeComponent();
@@ -40,7 +40,7 @@ namespace Big_project1
         {
             try
             {
-                conn = new SqlConnection(@"Data Source=DESKTOP-13D72EF\SQLEXPRESS;Initial Catalog=QuanLySach;Integrated Security=True");
+                conn = new SqlConnection(DatabaseConnection.ConnectionString);
                 conn.Open();
                 Load_comboBox();
             }
@@ -54,8 +54,6 @@ namespace Big_project1
         {
             try
             {
-                Random ma = new Random();
-                int Ma = ma.Next(000000, 999999);
                 cmd = new SqlCommand($"select [Số lượng] from Kho, Sach where Kho.[Mã sách] = Sach.[Mã sách] and [Tên sách] = N'{cbbTenSach.Text}'", conn);
                 int result = (int)cmd.ExecuteScalar();
                 int sl = Convert.ToInt32(txtSl.Text);
@@ -65,7 +63,7 @@ namespace Big_project1
                 }
                 else
                 {
-                    cmd = new SqlCommand($"insert into ChiTietHoaDon values ({Ma}, '{this.mhd}', (select [Mã sách] from Sach where [Tên sách] = N'{cbbTenSach.Text}'), {sl}, {sl} * (select [Giá] from Sach where [Tên sách] = N'{cbbTenSach.Text}'))", conn);
+                    cmd = new SqlCommand($"insert into ChiTietHoaDon values ('{this.mhd}', (select [Mã sách] from Sach where [Tên sách] = N'{cbbTenSach.Text}'), {sl}, {sl} * (select [Giá] from Sach where [Tên sách] = N'{cbbTenSach.Text}'))", conn);
                     if (cmd.ExecuteNonQuery() > 0)
                     {
                         MessageBox.Show("Thêm thành công!!");
@@ -94,7 +92,7 @@ namespace Big_project1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 form1 = new Form1();
+            Home form1 = new Home();
             form1.Show();
             this.Hide();
         }

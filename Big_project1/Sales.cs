@@ -45,13 +45,12 @@ namespace Big_project1
         {
             try
             {
-                conn = new SqlConnection(@"Data Source=DESKTOP-13D72EF\SQLEXPRESS;Initial Catalog=QuanLySach;Integrated Security=True");
+                conn = new SqlConnection(DatabaseConnection.ConnectionString);
                 conn.Open();
                 cbbCachtinh.SelectedIndex = 0;
                 dtpNgay.Enabled = false;
                 cbbMonth.Enabled = false;
                 txtNam.Enabled = false;
-
             }
             catch (Exception ex)
             {
@@ -80,7 +79,7 @@ namespace Big_project1
                     adapter.Fill(dt);
                     dataGridView1.DataSource = dt;
                     cmd = new SqlCommand($"select SUM([Thành tiền]) from ChiTietHoaDon, HoaDon where ChiTietHoaDon.[Mã hóa đơn] = HoaDon.[Mã hóa đơn] and [Ngày tạo] like '{txtNam.Text}%'", conn);
-                    Results.Text = " " + cmd.ExecuteScalar() + " VNĐ";
+                    Results.Text = " " + cmd.ExecuteScalar() + " $";
                 }
                 else if (cbbMonth.Enabled == true && txtNam.Enabled == true)
                 {
@@ -98,7 +97,7 @@ namespace Big_project1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 form1 = new Form1();
+            Home form1 = new Home();
             form1.Show();
             this.Hide();
         }

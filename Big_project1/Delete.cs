@@ -26,7 +26,7 @@ namespace Big_project1
         {
             try
             {
-                conn = new SqlConnection(@"Data Source=DESKTOP-13D72EF\SQLEXPRESS;Initial Catalog=QuanLySach;Integrated Security=True");
+                conn = new SqlConnection(DatabaseConnection.ConnectionString);
                 conn.Open();
             }
             catch (Exception ex)
@@ -73,7 +73,7 @@ namespace Big_project1
                         MessageBox.Show("Xóa thất bại!!");
                     }
                     this.Close();
-                    Form1 form1 = new Form1();
+                    Home form1 = new Home();
                     form1.Show();
                     this.Hide();
 

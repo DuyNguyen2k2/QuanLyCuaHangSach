@@ -24,9 +24,10 @@ namespace Big_project1
 
         private void Search_Load(object sender, EventArgs e)
         {
+            cbCategory.Height = 30;
             try
             {
-                conn = new SqlConnection(@"Data Source=DESKTOP-13D72EF\SQLEXPRESS;Initial Catalog=QuanLySach;Integrated Security=True");
+                conn = new SqlConnection(DatabaseConnection.ConnectionString);
                 conn.Open();
             }
             catch (Exception ex)
@@ -65,7 +66,7 @@ namespace Big_project1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 form1 = new Form1();
+            Home form1 = new Home();
             form1.Show();
             this.Hide();
         }

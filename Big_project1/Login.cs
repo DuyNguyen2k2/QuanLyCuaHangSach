@@ -87,15 +87,6 @@ namespace Big_project1
             else txtPassword.UseSystemPasswordChar = true;
         }
 
-        private void Login_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                btnLogin.PerformClick();
-                e.SuppressKeyPress = true;
-            }
-        }
-
         private void Login_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)

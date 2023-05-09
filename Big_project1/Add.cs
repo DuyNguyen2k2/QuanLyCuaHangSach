@@ -88,7 +88,7 @@ namespace Big_project1
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Tên sách đã tồn tại", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
 
@@ -104,7 +104,7 @@ namespace Big_project1
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -121,17 +121,7 @@ namespace Big_project1
 
         }
 
-        private void txtTen_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtLoai_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -141,27 +131,12 @@ namespace Big_project1
 
         }
 
-        private void txtNxb_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void label6_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void txtTg_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtGia_TextChanged(object sender, EventArgs e)
         {
 
         }

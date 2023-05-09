@@ -75,3 +75,23 @@ D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\
 D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.exe
 D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.pdb
 D:\Cleverly\WRU\Kiểm thử và đảm bảo chất lượng\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Home.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\bin\Debug\Big_project1.exe.config
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\bin\Debug\Big_project1.exe
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\bin\Debug\Big_project1.pdb
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Add.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Delete.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Home.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.InvoiceDetails.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Login.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Properties.Resources.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Purchase.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Receipt.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Sales.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Search.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.Update.resources
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.csproj.GenerateResource.cache
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.exe
+C:\Users\ADMIN\Documents\Big Project - Test\QuanLyCuaHangSach\Big_project1\obj\Debug\Big_project1.pdb

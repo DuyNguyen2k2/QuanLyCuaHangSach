@@ -84,5 +84,13 @@ namespace Big_project1
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Home form1 = new Home();
+            form1.Show();
+            this.Hide();
+        }
     }
 }

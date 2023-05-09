@@ -8,6 +8,6 @@ namespace Big_project1
 {
     public static class DatabaseConnection
     {
-        public static readonly string ConnectionString = @"Data Source=DESKTOP-IELRJB9\CLEVERLY;Initial Catalog=QuanLySach;User ID=sa;Password=galaga286;";
+        public static readonly string ConnectionString = @"Data Source=DUYNGUYEN;Initial Catalog=QuanLySach;Integrated Security=True";
     }
 }
